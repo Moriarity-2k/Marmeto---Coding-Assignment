@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Product Page</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="./script.js" defer></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="container-left">
+				<div class="container-image">
+					
+				</div>
+				<div class="container-image-var">
+					<!-- 
+                    Rendering images staticly 
+                    CDN image links from api are not working
+                    -->
+				</div>
+			</div>
+			<div class="container-right">
+				<div class="company">
+					<div class="vendor-name">Marmeto</div>
+					<div class="product-name">Embrace Sideboard</div>
+				</div>
+
+				<div class="product-container">
+                    <!-- Discount price and percentage -->
+					<div class="discount-container">
+						<div class="discount-price">$12999.00</div>
+						<div class="discount-percentage">35% off</div>
+					</div>
+                    <!-- Original Price -->
+					<div class="price">$199999.00</div>
+				</div>
+
+				<!-- Product Colors -->
+				<div class="colors-container">
+					<div class="color-title">Choose a color</div>
+					<div class="color-variants">
+						<!-- <div class="color-index">
+							<div class="product-color"></div>
+						</div> -->
+					</div>
+				</div>
+
+				<div class="sizes-container">
+					<div class="size-title">Choose a size</div>
+					<div class="size-variants">
+						<!-- Size variants populated dynamically -->
+					</div>
+				</div>
+
+				<div class="product-quantity-container">
+					<!-- Quantity selector and add to cart button -->
+					<div class="product-quantity">
+						<div class="quantity-container">
+							<!-- Decrease quantity button -->
+							<div class="decrease-quantity cursor-pointer" data-index="-1">-</div>
+							<!-- Display selected quantity -->
+							<div class="selected-quantity">1</div>
+							<!-- Increase quantity button -->
+							<div class="increase-quantity cursor-pointer" data-index="1">+</div>
+						</div>
+
+						<!-- Add to cart button -->
+						<div class="add-to-cart cursor-pointer">Add to cart</div>
+					</div>
+
+					<!-- Notification area -->
+					<div class="notification" style="color: black; padding: 0.5rem 0.8rem; text-align: center; width: auto; text-wrap: wrap;"></div>
+				</div>
+
+				<!-- Product Description -->
+				<div class="product-desc">
+					
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
